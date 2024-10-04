@@ -3,6 +3,7 @@ node_modules/
 
 # Ignore src directory
 src/
+public/
 
 # Ignore configuration files
 package.json
