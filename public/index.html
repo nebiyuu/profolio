@@ -10,36 +10,84 @@
 
 <body class="bg-gray-800 ">
 
-  <nav class="bg-gray-900 p-2 flex space-x-5">
-    <h1 class="text-yellow-800"><a href="#">Nebiyu <span class="text-red-50">Essayas</span></a></h1>
-    <ul class="flex space-x-5 ml-auto">
-      <li class="text-yellow-500"><a href="#">Home</a></li>
-      <li class="text-red-100"><a href="#">Contact</a></li>
-      <li class="text-red-100"><a href="#">Skills</a></li>
-    </ul>
+  <nav class="bg-gray-900  p-2 flex space-x-5 ">
+    <h1 class="text-yellow-800"><a href="#">Nebiyu <span class="text-red-50 p-5 "> Essayas</span></a></h1>
+    <div class="items-center">
+      <ul class="flex mr-auto space-x-5 ">
+        <li class="text-yellow-500"><a href="#">Home</a></li>
+        <li class="text-red-100"><a href="#">Contact</a></li>
+        <li class="text-red-100"><a href="#">Skills</a></li>
+      </ul>
+    </div>
+
   </nav>
 
   <div class="pl-10">
+
     <main>
       <h1 class="text-customYellow text-6xl pt-20 ">Heyy!! <br> My name is Nebiyu and I'm software <br>developer</h1>
       <h2 class=" text-red-300 opacity-5   pt-10 ">i specilize in web and mobile development</h2>
     </main>
-    <skills class="bg-center">
+
+    <skills class="">
       <h1 class="text-red-50 text-6xl pt-20 ">skills</h1>
-      <div class="flex">
-        <div class="text-customYellow  w-500 h-500 bg-secondaryblue p-4 m-4 rounded-lg">
-          <h1>cxcxcxehaaaaaaa</h1>
+      <div class="flex flex-wrap">
+
+        <div class="center  text-customYellow  w-500 h-500 bg-secondaryblue p-4 m-4 rounded-lg">
+          <img src="icons/ant-design--github-filled (1).svg" alt="git hub" class=" w-16  bg-center">
+          <h1 class="font-bold  p-2">Verstion control</h1>
+          <h3 class="font-thin font-serif p-2"> used git and github to track project progress</h3>
         </div>
+
         <div class="text-customYellow  w-500 h-500 bg-secondaryblue p-4 m-4 rounded-lg">
-          <h1>cxcxcxehaaaaaaa</h1>
+          <img src="icons/carbon--application-mobile (1).svg" alt="website" class=" w-16  bg-center">
+          <h1 class="font-bold  p-2">Mobile application</h1>
+          <h3 class="font-thin font-serif p-2">develop cross platform mobile apps for both android and ios </h3>
         </div>
+
         <div class="text-customYellow  w-500 h-500 bg-secondaryblue p-4 m-4 rounded-lg">
-          <h1>cxcxcxehaaaaaaa</h1>
+          <img src="icons/gg--website.svg" alt="mobile" class=" w-16  ">
+          <h1 class="font-bold  p-2">website development</h1>
+          <h3 class=" font-thin p-2">Design, build and maintain a responsive website using Html, css and JavaScript
+          </h3>
         </div>
 
       </div>
+
     </skills>
+    <projects class=" bg-center">
+      <h1 class="text-red-50 text-6xl pt-20 ">projects </h1>
+      <br>
+
+
+      <div class="flex flex-wrap">
+        <div class="text-customYellow  w-500 h-500 bg-secondaryblue p-4 m-4 rounded-lg">
+          <h1 class=" font-bold p-2 text-center">Todo list app</h1>
+          <h4 class=" font-thin">Build a todo list app that tracks todo list of a day using flutter as front end
+            and firebase as back end
+          </h4>
+        </div>
+
+        <div class="text-customYellow  w-500 h-500 bg-secondaryblue p-4 m-4 rounded-lg">
+          <h1 class=" font-bold p-2">Wether forcast website</h1>
+
+          <h4 class=" font-thin ">Develop a website that forecast weather of a city using RESTAPI
+          </h4>
+        </div>
+
+        <div class="text-customYellow  w-500 h-500 bg-secondaryblue p-4 m-4 rounded-lg">
+          <h1 class=" font-bold p-2">Book renting system for libraries</h1>
+          <h4 class=" font-thin">Design a book renting management system that integrates database of list of books in a
+            library
+          </h4>
+          <br>
+          <h4 class="text-center text-blue-400"><a href="#"></a>github repo</h4>
+        </div>
+
+      </div>
+    </projects>
   </div>
+
 </body>
 
 </html>
